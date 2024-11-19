@@ -1,7 +1,7 @@
 My dog has IMHA, and after a bloodtransfusion and medication for a month, he seems to be in good health. So, I made this little project for his efforts. I love him so much.
 uses: nuxt, nitro, vue, and tresjs/threejs.
 <br/>
-<video controls src="assets/2024-11-19 12-36-53.mp4" title="Title"></video>
+<video controls src="assets/2024-11-19 12-36-53.mp4" title="Edgar"></video>
 <br/>
 <br/>
 # Nuxt Minimal Starter
@@ -79,16 +79,3 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-
-//basic shadertoy
-uniform float     iTime;                 // shader playback time (in seconds)
-uniform float     iTimeDelta;            // render time (in seconds)
-uniform float     iFrameRate;            // shader frame rate
-uniform int       iFrame;                // shader playback frame
-uniform float     iChannelTime[4];       // channel playback time (in seconds)
-uniform vec3      iChannelResolution[4]; // channel resolution (in pixels)
-uniform vec4      iMouse;                // mouse pixel coords. xy: current (if MLB down), zw: click
-uniform samplerXX iChannel0..3;          // input channel. XX = 2D/Cube
-uniform vec4      iDate;                 // (year, month, day, time in seconds)
-// uniform float     iSampleRate;           // sound sample rate (i.e., 44100)
