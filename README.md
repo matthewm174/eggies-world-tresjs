@@ -1,9 +1,10 @@
 My dog has IMHA, and after a bloodtransfusion and medication for a month, he seems to be in good health. So, I made this little project for his efforts. I love him so much.
 uses: nuxt, nitro, vue, and tresjs/threejs.
-<br/>
-<video controls src="assets/2024-11-19 12-36-53.mp4" title="Title"></video>
-<br/>
-<br/>
+
+
+https://github.com/user-attachments/assets/14199d07-3f7e-4851-a91a-e29364a16263
+
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
