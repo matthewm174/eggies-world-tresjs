@@ -7,7 +7,7 @@ import { UnrealBloomPass } from 'three-stdlib'
 import { extend, useLoop, useTres } from '@tresjs/core'
 import { shallowRef } from 'vue'
 
-extend({ EffectComposer, OutputPass, UnrealBloomPass, HalftonePass, RenderPass  })
+extend({ EffectComposer, OutputPass, UnrealBloomPass, RenderPass  })
 const { renderer, scene, camera, sizes } = useTres()
 const composer = shallowRef<EffectComposer>()
 
@@ -29,16 +29,16 @@ useLoop().render(({ elapsed }) => {
       :args="[scene, camera]"
       attach="passes-0"
     />
-    <TresUnrealBloomPass
+    <!-- <TresUnrealBloomPass
       :args="[0.8, 0.1, 0.1, 0]"
       attach="passes-1"
-    /> 
-    <TresHalftonePass
+    />  -->
+    <!-- <TresHalftonePass
     :args="[sizes.width.value, sizes.height.value]"
     attach="passes-2">
-    </TresHalftonePass>
+    </TresHalftonePass> -->
     <TresOutputPass
-      attach="passes-3"
+      attach="passes-1"
       :set-size="[sizes.width.value, sizes.height.value]"
     />
   </TresEffectComposer>

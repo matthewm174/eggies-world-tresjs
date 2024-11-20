@@ -4,11 +4,6 @@ const camera = shallowRef()
 
 
 
-// watch(cameraRef, (newVal)=>{
-//   if(cameraRef){
-//     console.log(cameraRef.value)
-//   }
-// });
 
 </script>
 
