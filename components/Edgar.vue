@@ -14,26 +14,6 @@ const pugImgTexture = await useTexture({map:'/textures/PUG.jpg' , alphaMap: '/te
 const { actions, mixer } = useAnimations(animations, scene)
 console.log(nodes)
 
-//robe
-if(nodes['defaultMaterial'].material){
-  // let t = new MeshToonMaterial()
-  // t.map = pugVideoTexture.value
-  // t.normalMap= pugImgTexture.normalMap
-
-  // console.log(t)
-  // nodes['defaultMaterial'].material=t
-  // nodes['defaultMaterial'].scale.x = -1 // flip normal
-}
-
-//eyes
-
-
-// if(nodes['Shar_Pei_Shar_Pei_0'].material){
-
-//   nodes['Shar_Pei_Shar_Pei_0'].material.color = {isColor: true, r: 0.0, g: 0.2, b: 0.0}
-
-// }
-// console.log(actions['Armature|mixamo.com|Layer0'])
 let currentAction = actions['Armature|mixamo.com|Layer0']
 currentAction.play()
 scene.translateX(6)
