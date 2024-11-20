@@ -2,7 +2,10 @@ My dog has IMHA, and after a bloodtransfusion and medication for a month, he see
 uses: nuxt, nitro, vue, and tresjs/threejs.
 
 
-https://github.com/user-attachments/assets/14199d07-3f7e-4851-a91a-e29364a16263
+
+
+https://github.com/user-attachments/assets/c403d617-a58b-4833-a8df-7fb5761fa83e
+
 
 
 # Nuxt Minimal Starter
