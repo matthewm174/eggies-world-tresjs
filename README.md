@@ -1,9 +1,14 @@
 My dog has IMHA, and after a bloodtransfusion and medication for a month, he seems to be in good health. So, I made this little project for his efforts. I love him so much.
 uses: nuxt, nitro, vue, and tresjs/threejs.
+<br/>
+Unreal Bloom
+<br/>
 
+https://github.com/user-attachments/assets/819d3fd8-a3c4-4aa8-8971-60e312a18ba2
 
-
-
+<br/>
+Halftone
+<br/>
 https://github.com/user-attachments/assets/c403d617-a58b-4833-a8df-7fb5761fa83e
 
 
